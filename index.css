@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.wrapper{
+ overflow-x: hidden;
+ height: 100vh;
+ perspective: 10px;
+}
+
+#container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    transform-style: preserve-3d;
+
+}
+
+.background{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    transform: translateZ(-20px) scale(3.1);
+    object-fit: cover;
+}
+
+#page-title{
+    color: rgb(195, 239, 20);
+    font-size: 4rem;
+    
+}
+
+.content-section{
+    position: relative;
+    
+}
+
+.text{
+ background-color: rgb(45, 45, 45);
+ color: white;
+ padding: 30px 5px 30px 5px;
+ min-height: 300px;
+ align-items: center;
+}
+
+h2{
+    font-size: 3rem;
+   padding: 10rem;
+   font-weight: 900;
+   color: white;
+}
+
+.car{
+    height: 400px;
+    width: auto;
+    text-align: center;
+    background-attachment: fixed;
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.car-audi{
+    background-image: url(images/audi.jpg);
+    
+  
+    
+}
+
+.car-tesla{
+    background-image: url(images/tesla.jpg);
+    
+    
+}
+
+.car-jaguar{
+    background-image: url(images/jaguar.jpg);
+    
+    
+}
+
+.car-mercedes{
+    background-image: url(images/mercedes.jpg);
+    
+    
+}
+
+.car-mustang{
+    background-image: url(images/mustang.jpg);
+
+}
+
